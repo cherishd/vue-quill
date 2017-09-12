@@ -3,7 +3,7 @@
 > 基于 Quill 的 Vue 富文本编辑器
 
 # Example
-[Demo Page]()
+[Demo Page](https://cherishd.github.io/vue-quill/)
 
 ## 运行项目
 
