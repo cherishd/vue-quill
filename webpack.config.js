@@ -5,7 +5,7 @@ module.exports = {
   entry: './src/main.js',
   output: {
     path: path.resolve(__dirname, './dist'),
-    publicPath: '/dist/',
+    publicPath: '/vue-quill/dist/',
     filename: 'build.js'
   },
   module: {
@@ -23,6 +23,18 @@ module.exports = {
           }
           // other vue-loader options go here
         }
+      },
+      {
+        test: /\.css$/,
+        loader: 'vue-style-loader!css-loader'
+      },
+      {
+        test: /\.svg$/,
+        loader: 'html-loader',
+        options: {
+          minimize: true
+        },
+        include: /node_modules/
       },
       {
         test: /\.js$/,

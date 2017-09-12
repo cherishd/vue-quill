@@ -1,6 +1,6 @@
 # Vue-Quill-Editor
 
-基于 Quill 的 Vue 富文本编辑器
+> 基于 Quill 的 Vue 富文本编辑器
 
 # Example
 [Demo Page]()
